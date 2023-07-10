@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pro</title>
     <style>
+        a{
+            text-decoration: none;
+        }
    header{
     color: black;
    }
@@ -14,11 +17,7 @@
     #a1,#a2,#a3,#c{
        margin-right: 20px;
     }
-    #s{
-        margin-right: 20px;
-        background-color: beige; 
-
-    }
+    
     #d1{
         margin-left: 5px;
     }
@@ -36,6 +35,15 @@
         margin-left: 20px;
        
     }
+    nav ul li {
+        display: inline-block;
+        width: 100px; 
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    #s1,#s2,#s3{
+        margin-right: 30px;
+    }
    
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -49,11 +57,15 @@
 </header>
 <br>
 <body>
-    <a class="line" id="s" href="assigment.html" target="my frame">HOME </a>
-    <a class="line" id="s"  href="link.html" target="my frame">TECHSTACK</a>
-    <a class="line" id="s" href="inxfile.html" target="my frame">PROJECT</a> 
-    <a class="line" id="s"CSSlearning.html" target="my frame">EDUCATION</a>
-    <a class="line" id="s" href="iframe.html" target="my frame">ABOUT ME</a>
+    <nav>
+  <ul>
+    <li><a class="line"  href="assigment.html" target="my frame">HOME </a></li>
+   <li id="s1"> <a class="line"   href="link.html" target="my frame">TECHSTACK</a></li>
+   <li id="s2" > <a class="line"  href="inxfile.html" target="my frame">PROJECT</a> </li>
+   <li id="s3"> <a class="line" href= "CSSlearning.html" target="my frame">EDUCATION</a></li>
+   <li> <a class="line"  href="iframe.html" target="my frame">ABOUT ME</a></li>
+  </ul>
+    </nav>
    <br><br>
     <iframe id="table" src="assigment.html" width="1000px" height="500px" name="my frame"> 
     </iframe> 
